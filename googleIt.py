@@ -1,5 +1,5 @@
 #! python3
-# mapIt.py - Launches a map in the browser using an text from the command line or clipboard
+# googleIt.py - Launches a google search in the browser using data from the command line or clipboard
 
 import webbrowser
 import pyperclip
@@ -11,4 +11,4 @@ else:
     # Get address form the clipboard
     address = pyperclip.paste()
 
-webbrowser.open('https://www.google.com/maps/place/' + address)
+webbrowser.open('https://www.google.com/search?q=' + address)
