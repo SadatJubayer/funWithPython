@@ -45,3 +45,4 @@ for fileNames in os.listdir('.'):
 # TODO: Rename the files.
     print('Renaming "%s" to "%s"...' % (fileNames, euroFileName))
     shutil.move(fileNames, euroFileName)
+ 
